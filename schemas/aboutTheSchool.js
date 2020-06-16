@@ -13,9 +13,10 @@ export default {
       name: 'slug',
       type: 'slug',
       title: 'Page URL',
+      hidden: true,
       description:
         'A slug is a generated string of text used to create unique URL for this page',
-      validation: Rule => Rule.required(),
+      validation: (Rule) => Rule.required(),
       options: {
         source: 'title',
       },

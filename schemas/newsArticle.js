@@ -10,18 +10,12 @@ export default {
       type: 'string',
     },
     {
-      name: 'image',
-      description:
-        'Add an image for this article. This image is displayed in listings and at the top of the event page.',
-      type: 'smImage',
-    },
-    {
       name: 'slug',
       title: 'Article URL',
       type: 'slug',
       description:
-        'A slug is a generated string of text used to create unique URL for this article',
-      validation: Rule => Rule.required(),
+        'This is a hyphenated string of text used to create a unique URL for this article - use the "Generate" to create one from your title.',
+      validation: (Rule) => Rule.required(),
       options: {
         source: 'title',
       },
@@ -30,7 +24,7 @@ export default {
       name: 'author',
       type: 'reference',
       to: [{ type: 'staffMember' }],
-      validation: Rule => Rule.required(),
+      validation: (Rule) => Rule.required(),
     },
     {
       name: 'date',
@@ -38,15 +32,21 @@ export default {
       options: {
         dateFormat: 'DD/MM/YYYY',
       },
-      validation: Rule => Rule.required(),
+      validation: (Rule) => Rule.required(),
+    },
+    {
+      name: 'image',
+      description:
+        'Add an image for this article. This image is displayed in listings and at the top of the news article page.',
+      type: 'smImage',
     },
     {
       name: 'excerpt',
       type: 'text',
       rows: 3,
       description:
-        'Use the excerpt to provide a quick description of this article - used on the homepage and main news pages, but not displayed on the full news article page.',
-      validation: Rule => Rule.max(150),
+        'Use the excerpt to provide a quick description of this article - used on the homepage and main news pages, but not displayed on the full news article page. (200 characters max)',
+      validation: (Rule) => Rule.max(200),
     },
     {
       name: 'articleText',

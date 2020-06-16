@@ -16,7 +16,8 @@ export default {
       name: 'tel1',
       title: 'Landline contact number',
       type: 'string',
-      description: 'Contact phone number as you would like it shown in screen',
+      description:
+        'Contact phone number as you would like it displayed on screen',
     },
     {
       name: 'tel1raw',
@@ -29,7 +30,8 @@ export default {
       name: 'tel2',
       title: 'Mobile contact number',
       type: 'string',
-      description: 'Contact phone number as you would like it shown in screen',
+      description:
+        'Contact phone number as you would like it displayed on screen',
     },
     {
       name: 'tel2raw',
@@ -42,7 +44,7 @@ export default {
       name: 'contactEmail',
       title: 'Contact email address',
       type: 'string',
-      validation: Rule =>
+      validation: (Rule) =>
         Rule.regex(
           /[a-z0-9!#$%&'*+/=?^_`{|}~-]+(?:\.[a-z0-9!#$%&'*+/=?^_`{|}~-]+)*@(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?/,
           { name: 'email' }

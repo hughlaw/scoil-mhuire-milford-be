@@ -7,6 +7,8 @@ export default {
     {
       name: 'splashImage',
       title: 'Splash image',
+      description:
+        'This is the image displayed behind the crest on the homepage',
       type: 'image',
     },
     {
@@ -17,6 +19,8 @@ export default {
     {
       name: 'alert',
       title: 'Alert',
+      description:
+        'Use this to add an alert to the homepage for important information you need to display.',
       type: 'alert',
     },
   ],

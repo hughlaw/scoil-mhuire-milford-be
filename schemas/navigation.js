@@ -7,7 +7,11 @@ export default {
   of: [
     {
       type: 'reference',
-      to: [{ type: 'page' }, { type: 'aboutPage' }, { type: 'policiesPage' }],
+      to: [
+        { title: 'Page', type: 'page' },
+        { title: 'About page', type: 'aboutPage' },
+        { title: 'Policies page', type: 'policiesPage' },
+      ],
     },
   ],
 };

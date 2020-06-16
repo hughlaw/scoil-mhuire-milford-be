@@ -11,9 +11,19 @@ export default {
       name: 'staffMembers',
       title: 'Staff members',
       description:
-        'This determines which staff members are shown within the "About the school" page. A staff member must be added using the "Create before they can be included here.',
+        'This determines which staff members are shown within the "About the school" page. A staff member must be added via the "Staff member" section before they can be included here.',
       type: 'array',
-      of: [{ type: 'reference', to: [{ type: 'staffMember' }] }],
+      of: [
+        {
+          type: 'reference',
+          to: [
+            {
+              title: 'Staff member',
+              type: 'staffMember',
+            },
+          ],
+        },
+      ],
     },
   ],
 };
