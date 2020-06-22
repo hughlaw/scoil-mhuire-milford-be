@@ -5,7 +5,7 @@ import createSchema from 'part:@sanity/base/schema-creator';
 import schemaTypes from 'all:part:@sanity/base/schema-type';
 import homepage from './homepage';
 import alert from './alert';
-import { smBlock } from './blockEditor';
+import smBlock from './blockEditor';
 import newsArticle from './newsArticle';
 import event from './event';
 import staffMember from './staffMember';
@@ -20,6 +20,8 @@ import classPage from './classPage';
 import smImage from './smImage';
 import youtubeEmbed from './youtubeEmbed';
 import footerLinks from './footerLinks';
+import slideshow from './slideshow';
+import slideshowImage from './slideshowImage';
 
 // Then we give our schema to the builder and provide the result to Sanity
 export default createSchema({
@@ -38,6 +40,8 @@ export default createSchema({
     aboutTheSchool,
     alert,
     smBlock,
+    slideshow,
+    slideshowImage,
     newsArticle,
     event,
     staffMember,

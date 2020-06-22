@@ -51,6 +51,18 @@ export default {
         ),
     },
     {
+      name: 'twitter',
+      title: 'Twitter username',
+      description: 'Your twitter username (without the @ symbol)',
+      type: 'string',
+    },
+    {
+      name: 'facebook',
+      title: 'Facebook username',
+      description: "The school's facebook username",
+      type: 'string',
+    },
+    {
       name: 'footerLinks',
       type: 'footerLinks',
     },
