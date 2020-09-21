@@ -14,15 +14,15 @@
     "sanity"
   ],
   "dependencies": {
-    "@sanity/base": "^1.149.16",
+    "@sanity/base": "^1.150.7",
     "@sanity/block-content-to-react": "^2.0.7",
-    "@sanity/components": "^1.149.16",
-    "@sanity/core": "^1.149.16",
-    "@sanity/default-layout": "^1.149.16",
-    "@sanity/default-login": "^1.149.16",
-    "@sanity/desk-tool": "^1.149.16",
+    "@sanity/components": "^1.150.7",
+    "@sanity/core": "^1.150.7",
+    "@sanity/default-layout": "^1.150.7",
+    "@sanity/default-login": "^1.150.1",
+    "@sanity/desk-tool": "^1.150.7",
     "@sanity/image-url": "^0.140.19",
-    "@sanity/vision": "^1.149.16",
+    "@sanity/vision": "^1.150.6",
     "get-youtube-id": "^1.0.1",
     "prop-types": "^15.6",
     "react": "^16.2",
@@ -32,7 +32,7 @@
     "sanity-plugin-asset-source-unsplash": "^0.1.3"
   },
   "devDependencies": {
-    "@sanity/cli": "^1.149.16",
+    "@sanity/cli": "^1.150.7",
     "gatsby-image": "^2.4.7",
     "react-bootstrap": "^1.0.1"
   },
