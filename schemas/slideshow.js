@@ -1,7 +1,7 @@
 export default {
   title: 'Slideshow',
   name: 'slideshow',
-  type: 'document',
+  type: 'object',
   __experimental_actions: [/*'create',*/ 'update', /*'delete',*/ 'publish'],
   fields: [
     {
