@@ -14,6 +14,7 @@ export default {
       title: 'Images',
       type: 'array',
       of: [{ type: 'slideshowImage' }],
+      validation: (Rule) => Rule.required().min(2),
     },
   ],
 };
