@@ -23,5 +23,10 @@ export default {
         'Use this to add an alert to the homepage for important information you need to display.',
       type: 'alert',
     },
+    {
+      name: 'schoolMotto',
+      title: 'Our school motto',
+      type: 'sm-block',
+    },
   ],
 };
