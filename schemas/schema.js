@@ -22,6 +22,7 @@ import youtubeEmbed from './youtubeEmbed';
 import footerLinks from './footerLinks';
 import slideshow from './slideshow';
 import slideshowImage from './slideshowImage';
+import attachment from './attachment';
 
 // Then we give our schema to the builder and provide the result to Sanity
 export default createSchema({
@@ -49,5 +50,6 @@ export default createSchema({
     settings,
     smImage,
     youtubeEmbed,
+    attachment,
   ]),
 });

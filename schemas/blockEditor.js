@@ -1,4 +1,4 @@
-import { FiImage, FiYoutube } from 'react-icons/fi';
+import { FiImage, FiYoutube, FiFileText } from 'react-icons/fi';
 import { BsImages } from 'react-icons/bs';
 
 export default {
@@ -32,6 +32,10 @@ export default {
     {
       type: 'youtube',
       icon: FiYoutube,
+    },
+    {
+      type: 'attachment',
+      icon: FiFileText,
     },
   ],
 };
