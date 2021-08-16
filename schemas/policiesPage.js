@@ -27,10 +27,10 @@ export default {
       type: 'sm-block',
     },
     {
-      name: 'policies',
+      name: 'policySection',
       type: 'array',
-      of: [{ title: 'Policy', type: 'policy' }],
-    },
+      of: [{title: 'Policy section', type: 'policySection'}]
+    }
   ],
   initialValue: {
     title: 'Policies',

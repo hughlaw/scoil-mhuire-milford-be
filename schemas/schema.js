@@ -23,6 +23,7 @@ import footerLinks from './footerLinks';
 import slideshow from './slideshow';
 import slideshowImage from './slideshowImage';
 import attachment from './attachment';
+import policySection from './policySection';
 
 // Then we give our schema to the builder and provide the result to Sanity
 export default createSchema({
@@ -36,6 +37,7 @@ export default createSchema({
     homepage,
     page,
     policy,
+    policySection,
     policiesPage,
     classPage,
     aboutTheSchool,
