@@ -14,7 +14,7 @@ export default {
     {
       name: 'description',
       description: 'Give a short description on what this policy is about',
-      type: 'text',
+      type: 'sm-block',
     },
     {
       name: 'policyDocument',

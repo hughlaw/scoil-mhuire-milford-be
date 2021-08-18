@@ -1,7 +1,7 @@
 export default {
   name: 'policySection',
   title: 'Policy section',
-  type: 'document',
+  type: 'object',
   __experimental_actions: [/*'create',*/ 'update', /*'delete',*/ 'publish'],
   fields: [
     {
